@@ -14,7 +14,16 @@ const style = StyleSheet.create({
         fontWeight: 'bold'
     },
     itemContactoDetails: {
-        fontSize: 14
+        fontSize: 20,
+        justifyContent:'center',
+        alignItems:'center',
+        width: 300,
+        height:500
+    },
+    itemNotaDetails: {
+        fontSize: 20,
+        justifyContent:'center',
+        alignItems:'center',
     },
     btn: {
         fontSize: 48,
@@ -35,14 +44,16 @@ const style = StyleSheet.create({
     },
     textInput: {
         borderWidth: 1,
-        borderColor:'#9B9B9B',
+        paddingLeft: 15,
+        backgroundColor:'#FFF',
         borderRadius: 4,
         fontSize: 16,
         color: 'black',
         margin: 15
     },
     dataBox: {
-        padding: 12
+        alignItems:'center',
+        justifyContent:'center'
     },
     dataLabel: {
         fontSize: 35
